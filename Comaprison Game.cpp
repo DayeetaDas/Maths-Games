@@ -19,11 +19,9 @@ void instructions()
 }
 void randomize()
 {
-	for (int i = 0; i < 10; i++)
-	{
-		n1 = rand() % 10;
-		n2 = rand() % 10;
-	}
+	srand(time(NULL));
+	n1 = rand() % 10;
+	n2 = rand() % 10;
 }
 void questions()
 {
