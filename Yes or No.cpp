@@ -21,14 +21,12 @@ void instructions()
 }
 void randomize()
 {
-	for (int i = 0; i < 10; i++)
-	{
-		n1 = rand() % 10;
-		n2 = rand() % 10;
-		n3 = rand() % 10;
-		randIndex = rand() % 4;
-		s = operators[randIndex];
-	}
+	srand(time(NULL));
+	n1 = rand() % 10;
+	n2 = rand() % 10;
+	n3 = rand() % 10;
+	randIndex = rand() % 4;
+	s = operators[randIndex];
 }
 void questions()
 {
