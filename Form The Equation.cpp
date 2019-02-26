@@ -113,7 +113,7 @@ int main()
 	instructions();
 	cout << "\n\n";
 	int c = 0;
-	while (1)
+	while (c<=10)
 	{
 		randomize();
 		questions();
