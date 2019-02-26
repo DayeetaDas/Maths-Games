@@ -1,3 +1,4 @@
+/* This game is similar to the Find x game with the exception that here the value of x can either be positive or negative*/
 #include "pch.h"
 #include<iostream>
 #include<cstdlib>
